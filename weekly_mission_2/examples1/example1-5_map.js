@@ -1,6 +1,6 @@
 // Ejemplo 5: Uso de Map para convertir todos los nombres de una lista a minúsculas
 const names = ["Asabeneh", "Mathias", "Elias", "Brook", "Marcos"]
-const namesToUpperCase = names.map(name => name.toLowerCase())
+const namesToLowerCase = names.map(name => name.toLowerCase())
 
 console.log("Ejemplo 5: Uso de Map para convertir todos los nombres de una lista a minúsculas")
-console.log(namesToUpperCase)
+console.log(namesToLowerCase)
