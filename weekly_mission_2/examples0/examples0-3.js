@@ -1,15 +1,16 @@
 // Ejemplo 3: Objeto con diferentes propiedades
 const myObject3 = {
-	name: "Tulio",
+	name: "Pantera",
 	age: 2,
-	nicknames: ["Tulipan", "Tulancingo", "Tulish"],
+	nicknames: ["Negrita", "Panterita", "Panterua"],
 	address: {
-		zip_code: "10000",
-		street: "Dr. Vertiz 11 Benito Juarez",
-		city: "CDMX",
+		zip_code: "99999999",
+		street: "Benito Juarez N° 6",
+		city: "Oaxaca",
 	},
 };
 console.log("Ejemplo 3: Objeto con diferentes propiedades");
 console.log(myObject3);
 console.log(myObject3.name);
 console.log(myObject3["address"]);
+console.log(myObject3.nicknames[1])
