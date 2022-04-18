@@ -1,10 +1,11 @@
+
 const issues = {
 	title: "Live 1 semana 3",
 	repositoryNameAssociated: "MissionNodeJS",
 	status: "Open",
 	numberOfComments: 105,
 	labels: ["-Live 1-", " -Semana 3-"],
-	author: "MarcosSilvaG",
+	author: repo.author,
 	dateCreated: "3 apr 2022",
 	lastUpdated: "15 days ago",
 
@@ -19,3 +20,4 @@ const issues = {
 console.log(issues.getTitleAndAuthor())
 console.log("===General info===")
 console.log(issues.getGeneralInfo())
+
