@@ -1,5 +1,5 @@
 import { profile } from './profile_info.js'
-const issues = {
+const issue = {
 	title: "Live 1 semana 3",
 	repositoryNameAssociated: "MissionNodeJS",
 	status: "Open",
@@ -17,7 +17,7 @@ const issues = {
 		return `Title: ${this.title} Labels: ${this.labels}\nComments: ${this.numberOfComments}\nStatus: ${this.status}, Opened ${this.lastUpdated} by ${this.author}`
 	},
 }
-console.log(issues.getTitleAndAuthor())
+console.log(issue.getTitleAndAuthor())
 console.log("===General info===")
-console.log(issues.getGeneralInfo())
+console.log(issue.getGeneralInfo())
 
