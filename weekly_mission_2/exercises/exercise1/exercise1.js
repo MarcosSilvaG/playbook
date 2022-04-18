@@ -1,6 +1,8 @@
+import { profile } from './profile_info.js';
+
 const repo = {
 	name: "LaunchX",
-	author: "MarcosSilvaG",
+	author: profile.username,
 	language: "JavaScript",
 	numberOfCommits: 100,
 	stars: 199,

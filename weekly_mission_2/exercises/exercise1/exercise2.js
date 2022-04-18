@@ -1,11 +1,11 @@
-
+import { profile } from './profile_info.js'
 const issues = {
 	title: "Live 1 semana 3",
 	repositoryNameAssociated: "MissionNodeJS",
 	status: "Open",
 	numberOfComments: 105,
 	labels: ["-Live 1-", " -Semana 3-"],
-	author: repo.author,
+	author: profile.username,
 	dateCreated: "3 apr 2022",
 	lastUpdated: "15 days ago",
 

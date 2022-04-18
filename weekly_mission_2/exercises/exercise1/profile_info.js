@@ -7,3 +7,5 @@ const profile = {
     website: "",
     Twitter: "@washiprah",
 }
+
+export { profile }
